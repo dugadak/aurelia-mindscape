@@ -1,0 +1,137 @@
+name: aurelia_mindscape
+description: Next-Gen AI Emotional Intelligence Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core
+  cupertino_icons: ^1.0.6
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # UI/UX
+  flutter_animate: ^4.3.0
+  lottie: ^2.7.0
+  rive: ^0.12.3
+  glass_kit: ^3.0.0
+  shimmer: ^3.0.0
+  liquid_swipe: ^3.1.0
+  flutter_staggered_animations: ^1.1.1
+  
+  # Charts & Visualization
+  fl_chart: ^0.65.0
+  syncfusion_flutter_charts: ^23.2.6
+  
+  # Audio
+  just_audio: ^0.9.36
+  flutter_sound: ^9.2.13
+  audio_waveforms: ^1.0.4
+  
+  # Camera & Media
+  camera: ^0.10.5
+  image_picker: ^1.0.5
+  video_player: ^2.8.1
+  
+  # Animations
+  animated_text_kit: ^4.2.2
+  flutter_svg: ^2.0.9
+  flutter_blurhash: ^0.8.2
+  
+  # Networking
+  dio: ^5.4.0
+  web_socket_channel: ^2.4.0
+  socket_io_client: ^2.0.3
+  
+  # Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  
+  # Security
+  flutter_secure_storage: ^9.0.0
+  local_auth: ^2.1.7
+  crypto: ^3.0.3
+  
+  # Sensors
+  sensors_plus: ^4.0.2
+  geolocator: ^10.1.0
+  
+  # Utilities
+  intl: ^0.18.1
+  uuid: ^4.2.2
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  
+  # AI/ML
+  tflite_flutter: ^0.10.4
+  google_mlkit_text_recognition: ^0.11.0
+  
+  # Permissions
+  permission_handler: ^11.1.0
+  
+  # Notifications
+  flutter_local_notifications: ^16.2.0
+  firebase_messaging: ^14.7.9
+  
+  # Analytics
+  firebase_analytics: ^10.7.4
+  mixpanel_flutter: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+  hive_generator: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/app_icon_adaptive.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/sounds/
+    - assets/icons/
+    - assets/fonts/
+  
+  fonts:
+    - family: Neuromorphic
+      fonts:
+        - asset: assets/fonts/Neuromorphic-Regular.ttf
+        - asset: assets/fonts/Neuromorphic-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Neuromorphic-Light.ttf
+          weight: 300
+    
+    - family: Quantum
+      fonts:
+        - asset: assets/fonts/Quantum-Regular.ttf
+        - asset: assets/fonts/Quantum-Bold.ttf
+          weight: 700
